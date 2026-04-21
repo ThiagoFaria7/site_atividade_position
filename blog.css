@@ -1,0 +1,446 @@
+body {
+    height: 350vh;
+    margin: 0;
+}
+
+
+
+.roboto-uniquifier {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+  }
+
+  
+.playfair-display-uniquifier {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+ body { overflow-x: hidden;}
+
+.cab1 {
+    position: absolute;
+    left: 20%; 
+    
+}
+.cab2 {
+    position: absolute;
+    left: 60%; 
+    
+}
+.cabecalho li{
+    display: inline-block;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+li:hover {
+    color: #AD9966;
+}
+
+.logo {
+    position: absolute;
+    left: 47.5%;
+    width: 68px;
+    height: 80px;
+}
+.cabecalho {
+    position: sticky;
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+.prato {
+    margin-left: 11.8em;
+    width: 1500px;
+}
+
+
+.texto_foto {
+    position: absolute;
+    left: 37.5%;
+    top: 20em;
+    z-index: 1;
+    text-align: center;
+    
+}
+.textft {
+    font-size: 72px;
+    font-family: "Playfair Display", serif;
+    color: white;
+    width: 445px;
+    font-weight: 100;
+}
+.p_ft {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+
+.blog_container {
+    width: 1140px;
+    margin: 50px auto;
+    text-align: left;
+}
+
+/* ÁREA DE POSTS */
+.posts_area {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
+.post_item {
+    margin-bottom: 50px;
+    display: block;
+}
+
+.post_meta {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    text-align: right;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.post_meta p {
+    color: #777;
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.post_content {
+    display: inline-block;
+    width: 78%;
+    vertical-align: top;
+}
+
+.post_content img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.post_content h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.post_content p {
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.view_more {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid #AD9966;
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.view_more:hover {
+    background: #AD9966;
+    color: #fff;
+}
+
+/* SIDEBAR */
+.sidebar {
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+    margin-left: 1%;
+    background: #f9f9ff;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+
+.search_box {
+    background: #AD9966;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.search_box input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding-left: 10px;
+    outline: none;
+    width: 80%;
+}
+
+.search_box input::placeholder { color: #fff; }
+
+.author_card {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.author_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.side_title {
+    background: #AD9966;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.side_post img {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.side_post div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+    margin-left: 10px;
+}
+
+.side_post h4 { font-size: 14px; margin: 0; }
+.side_post span { font-size: 12px; color: #777; }
+
+/* Foto do Autor (Circular) */
+.author_img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Faz a foto ficar redonda */
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+/* Miniaturas dos Posts Populares */
+.pop_img_small {
+    width: 80px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    object-fit: cover; /* Não deixa a imagem esticar */
+}
+
+/* Foto do Anúncio */
+.ad_img_full {
+    width: 100%; /* Ocupa a largura total da barra lateral */
+    height: auto;
+}
+
+/* Garante que o texto dos posts populares não quebre */
+.pop_txt {
+    display: inline-block;
+    width: calc(100% - 90px);
+    padding-left: 10px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+/* CONTAINER DA SIDEBAR */
+.sidebar {
+    display: inline-block;
+    width: 350px;
+    vertical-align: top;
+    background-color: #f9f9ff;
+    padding: 40px 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* 1. BUSCA (BOTÃO DOURADO ARREDONDADO) */
+.search_widget {
+    background-color: #AD9966; /* Sua cor dourada padrão */
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.search_input_group input {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    width: 80%;
+    outline: none;
+    font-size: 14px;
+}
+
+.search_input_group input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.btn_search {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    float: right;
+    cursor: pointer;
+    font-size: 16px;
+}
+#a { color: #AD9966;}
+/* 2. AUTOR (FOTO CIRCULAR) */
+.author_img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.author_widget h4 {
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.author_role {
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.social_links {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 20px;
+}
+
+.social_links span {
+    margin: 0 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.author_bio {
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* 3. WIDGETS COM TÍTULO DOURADO (POSTS POPULARES / CATEGORIAS) */
+.widget_title {
+    background-color: #AD9966; /* Dourado padrão */
+    color: #ffffff;
+    padding: 12px;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    margin: 40px 0 30px 0;
+    text-align: center;
+}
+
+.pop_post_item {
+    text-align: left;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.pop_img_small {
+    width: 80px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    object-fit: cover;
+}
+
+.pop_txt {
+    display: inline-block;
+    width: calc(100% - 90px);
+    padding-left: 15px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.pop_txt h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin: 0 0 5px 0;
+    color: #000;
+}
+
+.pop_txt span {
+    color: #777777;
+    font-size: 12px;
+}
+
+/* 4. ANÚNCIO (AD) */
+.ad_img_full {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 30px;
+}
+
+/* 5. CATEGORIAS (LISTA COM PONTILHADO) */
+.cat_list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.cat_list li {
+    border-bottom: 1px dotted #eeeeee;
+    padding: 12px 0;
+    color: #777777;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+.cat_list li span:last-child {
+    float: right;
+}
+
+/* 6. TAGS */
+.tag_cloud {
+    text-align: left;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    padding: 6px 15px;
+    font-size: 12px;
+    color: #777777;
+    margin: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tag:hover {
+    background-color: #AD9966;
+    color: #ffffff;
+    border-color: #AD9966;
+}
+
+/* CLEARFIX */
+.pop_post_item::after, .cat_list li::after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,543 @@
+.roboto-uniquifier {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+  }
+
+  
+.playfair-display-uniquifier {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+ body { overflow-x: hidden;}
+
+.cab1 {
+    position: absolute;
+    left: 20%; 
+    
+}
+.cab2 {
+    position: absolute;
+    left: 60%; 
+    
+}
+.cabecalho li{
+    display: inline-block;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+li:hover {
+    color: #AD9966;
+}
+
+.logo {
+    position: absolute;
+    left: 47.5%;
+    width: 68px;
+    height: 80px;
+}
+.cabecalho {
+    position: sticky;
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+.hr_ttf {
+    width: 25em;
+}
+.prato  {
+    position: absolute;
+    left: 9.5%;
+    top: 6em;
+}
+.texto_foto {
+    position: absolute;
+    left: 37.5%;
+    top: 18em;
+    z-index: 1;
+    text-align: center;
+    
+}
+.textft {
+    font-size: 72px;
+    font-family: "Playfair Display", serif;
+    color: white;
+    width: 445px;
+    font-weight: 100;
+}
+.p_ft {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+.texto_dd {
+    position: absolute;
+    top: 120%;
+    left: 20%;
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+}
+.p_dd {
+    position: absolute;
+    left: 21%;
+    top: 145%;
+    color: #777777;
+    font-size: 15px;
+}
+.botao_dd {
+    position: absolute;
+    left: 20%;
+    top: 160%;
+    border: solid 1px;
+    background-color: #AD9966;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+.botao_dd:hover {
+    background-color: white;
+    color: #AD9966;
+}
+.menu_list {
+    background-color: #FAF5F0;
+    width: 635px;
+    height: 1175.5px;
+    position: absolute;
+    left: 46%;
+    top: 89.2%;
+    text-align: center;
+}
+.tit_list {
+    font-family: "Playfair Display", serif;
+    font-size: 21px;
+    margin-top: 3.7em;
+    font-weight: 200;
+}
+
+.hr_lt {
+    border: 0;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    width: 10em;
+}
+.descricao {
+    color: #777777;
+    margin-top: 2em;
+}
+.tit_desc {
+    margin-top: 2em;
+}
+
+.sushi {
+    margin-left: 20%;
+    margin-top: 95%;
+    z-index: 10;
+    position: relative;
+}
+
+.pao {
+    margin-left: 2em;
+    position: absolute;
+    top: 243vh;
+}
+
+.macar {
+    position: relative;
+    margin-top: 2em;
+    left: 25.3%;
+}
+
+.peixe {
+    margin-left: 51%;
+    position: relative;
+    bottom: 38vh;
+}
+
+.texto_fr {
+    margin-left: 60%;
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+}
+.p_fr {
+    margin-left: 60%;
+    color: #777777;
+    font-size: 15px;
+}
+.fr {
+    position: relative;
+    bottom: 60vh;
+}
+
+.chef {
+    position: relative;
+    left: 51%;
+    bottom: 45vh;
+}
+
+.texto_cf {
+    font-size: 52px;
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+}
+.p_cf {
+ 
+    color: #777777;
+    font-size: 18px;
+}
+.cf {
+    position: relative;
+    bottom: 110vh;
+    left: 22%;
+}
+
+.acs {
+    margin-top: 4em;
+}
+
+.slide {
+    position: absolute;
+    left: 20%;
+    top: 335em;
+
+}
+
+
+
+.div_mex {
+    position: absolute;
+    bottom: -295em;
+    left: 35%;
+    opacity: 90%;
+    text-align: center;
+    background-color: #eeeeee;
+    width: 513px;
+    height: 163px;
+    padding: 2em;
+}
+
+.hr_mx {
+    width: 10em;
+    color: #969696;
+   
+}
+
+.des_mx {
+    color: #777777;
+    font-size: 1.2em;
+
+}
+
+.tit_mx {
+    font-weight: 100;
+    font-size: 1.3em;
+
+}
+
+.imgb {
+    margin: 0;
+    position: relative;
+    left: 27%;
+    top: -10em;
+}
+
+.numeros {
+    margin-left: 60%;
+    margin-bottom: 5em;
+    position: absolute;
+    bottom:  -353em;
+}
+
+.tit_num {
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+}
+
+.p_num {
+    color: #777777;
+
+}
+
+.p_num0 {
+    color: #777777;
+    margin-top: 0em;
+}
+
+.p_num1 {
+    color: #777777;
+    margin-top: 3em;
+}
+
+.p_num2 {
+    color: #777777;
+    margin-top: 3em;
+}
+
+
+.rodape {
+    background-color: #04091e;
+    padding: 150px 0;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 10em;
+}
+
+.container_rodape {
+    width: 1140px; 
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.listas_rodape {
+    display: inline-block;
+    vertical-align: top;
+    width: 16%; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.li_rodapeTT {
+    color: #ffffff; 
+    font-family: "Playfair Display", serif;
+   
+    font-size: 16px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+
+.li_rodape, .p_newsletter {
+    color: #777777; 
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.li_rodape:hover {
+    color: #AD9966;
+}
+
+
+.newsletter_rodape {
+    display: inline-block;
+    vertical-align: top;
+    width: 28%;
+    box-sizing: border-box;
+}
+
+
+.input_group {
+    background-color: #191d2b; 
+    border: 1px solid #333333;
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.input_email {
+    background: transparent;
+    border: none;
+    padding: 10px 15px;
+    color: #ffffff;
+    width: 75%;
+    height: 100%;
+    outline: none;
+    float: left;
+    font-size: 13px;
+}
+
+
+.btn_seta {
+    background-color: #AD9966; 
+    color: #ffffff;
+    border: none;
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    position: relative;
+    left: 4.1em;
+    bottom: 3.75em;
+
+}
+
+.btn_seta:hover {
+    background-color: #191d2b;
+}
+
+#a { color: #AD9966;}
+.input_group::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rodape_inferior {
+    width: 1140px;
+    padding-top: 40px;
+    position: relative;
+    right: 47em;
+
+}
+
+.destaque_colorlib {
+    color: #AD9966;
+}
+
+.copyright_texto {
+    color: #777777;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    margin: 0;
+}
+
+
+.fi-brands-facebook {
+   font-size: 50px;
+   color:#ffffff;
+}
+
+.form-eventos {
+    background-color: #f7f4ef;
+    padding: 40px;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin-left: 20em;
+    margin-top: -15em;
+}
+
+.book {
+    margin-left: 96%;
+    margin-top: 17em;
+    
+}
+
+.bookdiv{
+    position: fixed;
+    width: 100%;
+}
+
+.bookdiv p {
+    color: #000000;
+    text-align: center;
+    transition: 0.3s;
+    margin-left: 97%;
+    font-size: 12px;
+    position: absolute;
+    top: 28em;
+    display: inline-block;
+    transform: rotate(270deg);
+}
+
+
+.viewdiv{
+    position: fixed;
+    width: 100%;
+    margin-top: 17em;
+}
+
+.viewdiv > a:hover{
+    
+    transform: rotate(90deg);
+}
+
+.viewdiv a {
+    color: #000000;
+    text-align: center;
+    transition: 0.3s;
+    text-decoration: none;
+    margin-left: -8em;
+    font-size: 12px;
+    position: absolute;
+    top: 7em;
+    display: inline-block;
+  transform: rotate(90deg);
+}
+
+
+.form-eventos .campo {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #ffffff;
+    color: #555;
+    font-size: 14px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.form-eventos .linha-campos {
+    display: flex;
+    gap: 20px;
+}
+
+.form-eventos .linha-campos > * {
+    flex: 1; 
+}
+
+
+.form-eventos .campo-msg {
+    resize: vertical;
+    min-height: 120px;
+}
+
+
+.form-eventos .area-botao {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.form-eventos .btn-enviar {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: background-color 0.2s;
+}
+
+.form-eventos .btn-enviar:hover {
+    background-color: #AD9966;
+    
+}
+
+.form-eventos .campo::placeholder {
+    color: #888888;
+}
+
+
+
+
+
+::selection {
+    background: #AD9966; 
+    color: #ffffff;         
+  }
+body { height: 700vh;
+        margin: 0}
